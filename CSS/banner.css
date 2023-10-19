@@ -1,15 +1,17 @@
-.banner {
-    background-image: url(../Images/2222.png);
+.banner{
+background-image: url(../IMAGES/2222.png);
+color: azure;
+padding: 150px 0px;
 background-size: cover;
 background-position: center;
 }
 
-.banner h1 {
-    font-size: 80px;
-  }
-  .banner h2 {
-    color: white;
-  font-size: 30px;
-  font-weight: lighter;
-	opacity: 0.8;
-  }
+.banner h1{
+font-size: 50px ;
+}
+
+.banner h2{
+    font-size: 30px ;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    }
