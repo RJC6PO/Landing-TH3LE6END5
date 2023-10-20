@@ -1,25 +1,24 @@
-
-@import url(../CSS/container.css);
-@import url(avatar.css);
-@import url(button.css);
+@import url(Card.css);
+@import url(container.css);
 @import url(banner.css);
-@import url(card.css);
+
 
 body {
-    font-family: 'Lora', serif;
-    font-size: 18px;
-    margin: 10px;
-    text-justify: auto;
-    width: auto;
-  }
-  h1, h2, h3 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    margin-bottom: 40px;
-    margin-top: 50px;
-  }
-
-
-a {
-    text-decoration: none;
-}
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+        }
+ header {
+              background-color: #333;
+             color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+.container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
